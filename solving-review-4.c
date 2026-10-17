@@ -6,8 +6,14 @@ int main() {
     int wordcnt;
     wordcnt= word_count(word);
     printf("%d", wordcnt);
+    return 0;
 }
 
 int word_count(char arr[]) {
-    ///wordcount code
+    int cnt = 0;
+    for(int i = 0; arr[i] != '\0'; i++) {
+        if(arr[i] == ' ')
+            cnt++;
+    }
+    return cnt + 1;
 }

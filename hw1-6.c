@@ -13,4 +13,4 @@ void extend(double arr1[SIZE],double arr2[SIZE],double arr3[SIZE]) {
     for(int i = 0; i < 10; i++) {
         arr3[i] = arr1[i] * arr2[i];
     }
-}   
+}       

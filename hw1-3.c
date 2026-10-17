@@ -5,7 +5,7 @@ int main() {
     printf("Enter the time (h m s)");
     scanf("%d %d %d", &hour, &minute, &second);
     secs(&hour, &minute, &second, &total);
-    printf("%d seconds", total);
+    printf("Total: %d seconds", total);
     return 0;
 }
 void secs(int *h, int *m, int *s, int *t) {
